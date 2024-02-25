@@ -13,7 +13,7 @@ const AirPollution = () => {
 
   if (!airQuality || !airQuality.list || !airQuality.list[0] || !airQuality.list[0].main) {
     return (
-    <Skeleton className='h-[32rem] w-full col-span-2 md:col-span-full' />
+    <Skeleton className='h-[12rem] w-full col-span-2 md:col-span-full' />
     );
   };
 
