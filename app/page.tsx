@@ -7,6 +7,7 @@ import Population from "./Components/Population/Population";
 import Sunset from "./Components/Sunset/Sunset";
 import Temperature from "./Components/Temperature/Temperature";
 import UvIndex from "./Components/UvIndex/UvIndex";
+import Visibility from "./Components/Visibility/Visibility";
 import Wind from "./Components/Wind/Wind";
 
 
@@ -28,6 +29,7 @@ export default function Home() {
             <Population />
             <FeelsLike />
             <Humidity />
+            <Visibility />
           </div>
         </div>
       </div>
